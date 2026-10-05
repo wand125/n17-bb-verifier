@@ -1,0 +1,57 @@
+{
+ "cells_source": {
+  "design": "ring-3-voronoi-8-tabbed-unique",
+  "kind": "cover"
+ },
+ "certificate": {
+  "chunks": 84,
+  "manifest_sha256": "85f5135d3d3dc096fa8b3c902e2d5343dc2db04b931a39147778ac4ab60df2e4"
+ },
+ "checked_nodes": 41958,
+ "closed_leaves": 21391,
+ "counts": {
+  "angle_split_ok": 17534,
+  "bound_ok": 656277,
+  "closed_disc_ok": 10227,
+  "closed_lp_ok": 4470,
+  "closed_pair_ok": 6694,
+  "cut_ok": 1858216,
+  "header": 1,
+  "open_ok": 20567,
+  "pair_split_ok": 3033,
+  "trig_bad": 0,
+  "trig_checked": 380
+ },
+ "directory": "<certificate directory>",
+ "failure_count": 0,
+ "failures": [],
+ "max_depth": 31,
+ "mode": "full",
+ "node_failures": 0,
+ "nodes": 41958,
+ "pattern": [
+  "interior-SW",
+  "interior-NW",
+  "interior-W",
+  "interior-S",
+  "interior-N",
+  "interior-SE"
+ ],
+ "provenance": {
+  "dirty": false,
+  "files": {
+   "packing/devtools/verify_n17_bb_certificate.py": "c69f1ec08165607577f680552758fb2fd7890600"
+  },
+  "revision": "4b97203635dae7b962d39e306ce471c178c00225"
+ },
+ "reasons": {
+  "disc": 10227,
+  "lp": 4470,
+  "pair": 6694
+ },
+ "sample": null,
+ "schema": "n17-certificate-verification/v1",
+ "seconds": 1286.878,
+ "status": "PASS",
+ "verifier": "branch-and-bound"
+}

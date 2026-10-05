@@ -1,0 +1,49 @@
+{
+ "certificate": {
+  "chunks": 159,
+  "manifest_sha256": "505d611c98703789d574ad2ad0311b12f57fdd59124863c8dc444377a19d7e57"
+ },
+ "checked_nodes": 79396,
+ "closed_leaves": 40224,
+ "counts": {
+  "angle_split_ok": 34667,
+  "bound_ok": 1069458,
+  "closed_cell_ok": 1149,
+  "closed_disc_ok": 10266,
+  "closed_lp_ok": 5575,
+  "closed_pair_ok": 23234,
+  "cut_ok": 3724612,
+  "header": 1,
+  "open_ok": 39172,
+  "pair_split_ok": 4505,
+  "trig_bad": 0,
+  "trig_checked": 373,
+  "vacuous_cut": 2
+ },
+ "directory": "<certificate directory>",
+ "failure_count": 0,
+ "failures": [],
+ "max_depth": 32,
+ "mode": "full",
+ "node_failures": 0,
+ "nodes": 79396,
+ "pattern": [
+  "side-S0",
+  "side-W0",
+  "interior-SW",
+  "interior-NW",
+  "interior-W",
+  "interior-S",
+  "interior-SE"
+ ],
+ "reasons": {
+  "cell": 1149,
+  "disc": 10266,
+  "lp": 5575,
+  "pair": 23234
+ },
+ "schema": "n17-certificate-verification/v1",
+ "seconds": 68.088,
+ "status": "PASS",
+ "verifier": "branch-and-bound"
+}
