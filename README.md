@@ -1,3 +1,5 @@
+> **Moved:** this repository is now part of [wand125/square-packing](https://github.com/wand125/square-packing/tree/main/tools/n17_bb_verifier) (`tools/n17_bb_verifier/`). This copy is archived; every path is mapped in `MOVED.json`, and old links, commits and releases keep working.
+
 # n17-bb-verifier
 
 `n17bb-verify` is an exact verifier for the n = 17 sub-pattern branch-and-bound certificates of the [squares project](https://github.com/jlevy/squares) (schema `n17-subpattern-bb-certificate/v1`).

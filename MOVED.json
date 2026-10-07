@@ -1,0 +1,199 @@
+{
+ "schema": "moved/v1",
+ "old_repository": "wand125/n17-bb-verifier",
+ "old_head": "f76a974926aae3ec87eb355b6b4b73f425cc0d4d",
+ "new_repository": "wand125/square-packing",
+ "note": "Every path of the old repository at old_head and where it lives now: 'new' is a path in the new repository's git tree (documents, code, metadata); 'new_release' is a release asset (certificate data) with the path inside it. The old repository is archived (read-only); its history and releases remain available.",
+ "paths": [
+  {
+   "old": ".github/workflows/ci.yml",
+   "new": null
+  },
+  {
+   "old": ".gitignore",
+   "new": null
+  },
+  {
+   "old": "Cargo.lock",
+   "new": null
+  },
+  {
+   "old": "Cargo.toml",
+   "new": null
+  },
+  {
+   "old": "LICENSE",
+   "new": null
+  },
+  {
+   "old": "README.md",
+   "new": null
+  },
+  {
+   "old": "clippy.toml",
+   "new": null
+  },
+  {
+   "old": "results/A-fast.json",
+   "new": null
+  },
+  {
+   "old": "results/A-standing.json",
+   "new": null
+  },
+  {
+   "old": "results/C1-fast.json",
+   "new": null
+  },
+  {
+   "old": "results/C1-standing.json",
+   "new": null
+  },
+  {
+   "old": "results/C2-fast.json",
+   "new": null
+  },
+  {
+   "old": "results/C2-standing.json",
+   "new": null
+  },
+  {
+   "old": "rust-toolchain.toml",
+   "new": null
+  },
+  {
+   "old": "src/exact.rs",
+   "new": null
+  },
+  {
+   "old": "src/main.rs",
+   "new": null
+  },
+  {
+   "old": "src/nodes.rs",
+   "new": null
+  },
+  {
+   "old": "tests/cells.json",
+   "new": null
+  },
+  {
+   "old": "tests/cli.rs",
+   "new": null
+  },
+  {
+   "old": "tests/fixtures/mutated-bound/099b9fb9401cc14b1931d3f1b740fe37dd7504933581a3d86dbb05f2a3003c8b.json.gz",
+   "new": null
+  },
+  {
+   "old": "tests/fixtures/mutated-bound/31ca38ea9605e569b54a3d27fbf814e6c6de36b6ac78a79a1fc6ec6f4f2d774a.json.gz",
+   "new": null
+  },
+  {
+   "old": "tests/fixtures/mutated-bound/README.txt",
+   "new": null
+  },
+  {
+   "old": "tests/fixtures/mutated-bound/ef3717486ab61869e6e43ee21bbe367a4ec9a19fea443e5a73a61da89369cb0a.json.gz",
+   "new": null
+  },
+  {
+   "old": "tests/fixtures/mutated-cut/099b9fb9401cc14b1931d3f1b740fe37dd7504933581a3d86dbb05f2a3003c8b.json.gz",
+   "new": null
+  },
+  {
+   "old": "tests/fixtures/mutated-cut/31ca38ea9605e569b54a3d27fbf814e6c6de36b6ac78a79a1fc6ec6f4f2d774a.json.gz",
+   "new": null
+  },
+  {
+   "old": "tests/fixtures/mutated-cut/README.txt",
+   "new": null
+  },
+  {
+   "old": "tests/fixtures/mutated-cut/ef3717486ab61869e6e43ee21bbe367a4ec9a19fea443e5a73a61da89369cb0a.json.gz",
+   "new": null
+  },
+  {
+   "old": "tests/fixtures/mutated-drop-leaf/099b9fb9401cc14b1931d3f1b740fe37dd7504933581a3d86dbb05f2a3003c8b.json.gz",
+   "new": null
+  },
+  {
+   "old": "tests/fixtures/mutated-drop-leaf/31ca38ea9605e569b54a3d27fbf814e6c6de36b6ac78a79a1fc6ec6f4f2d774a.json.gz",
+   "new": null
+  },
+  {
+   "old": "tests/fixtures/mutated-drop-leaf/README.txt",
+   "new": null
+  },
+  {
+   "old": "tests/fixtures/mutated-drop-leaf/ef3717486ab61869e6e43ee21bbe367a4ec9a19fea443e5a73a61da89369cb0a.json.gz",
+   "new": null
+  },
+  {
+   "old": "tests/fixtures/mutated-multiplier/099b9fb9401cc14b1931d3f1b740fe37dd7504933581a3d86dbb05f2a3003c8b.json.gz",
+   "new": null
+  },
+  {
+   "old": "tests/fixtures/mutated-multiplier/31ca38ea9605e569b54a3d27fbf814e6c6de36b6ac78a79a1fc6ec6f4f2d774a.json.gz",
+   "new": null
+  },
+  {
+   "old": "tests/fixtures/mutated-multiplier/README.txt",
+   "new": null
+  },
+  {
+   "old": "tests/fixtures/mutated-multiplier/ef3717486ab61869e6e43ee21bbe367a4ec9a19fea443e5a73a61da89369cb0a.json.gz",
+   "new": null
+  },
+  {
+   "old": "tests/fixtures/mutated-narrow-final/099b9fb9401cc14b1931d3f1b740fe37dd7504933581a3d86dbb05f2a3003c8b.json.gz",
+   "new": null
+  },
+  {
+   "old": "tests/fixtures/mutated-narrow-final/31ca38ea9605e569b54a3d27fbf814e6c6de36b6ac78a79a1fc6ec6f4f2d774a.json.gz",
+   "new": null
+  },
+  {
+   "old": "tests/fixtures/mutated-narrow-final/README.txt",
+   "new": null
+  },
+  {
+   "old": "tests/fixtures/mutated-narrow-final/ef3717486ab61869e6e43ee21bbe367a4ec9a19fea443e5a73a61da89369cb0a.json.gz",
+   "new": null
+  },
+  {
+   "old": "tests/fixtures/mutated-split/099b9fb9401cc14b1931d3f1b740fe37dd7504933581a3d86dbb05f2a3003c8b.json.gz",
+   "new": null
+  },
+  {
+   "old": "tests/fixtures/mutated-split/31ca38ea9605e569b54a3d27fbf814e6c6de36b6ac78a79a1fc6ec6f4f2d774a.json.gz",
+   "new": null
+  },
+  {
+   "old": "tests/fixtures/mutated-split/README.txt",
+   "new": null
+  },
+  {
+   "old": "tests/fixtures/mutated-split/ef3717486ab61869e6e43ee21bbe367a4ec9a19fea443e5a73a61da89369cb0a.json.gz",
+   "new": null
+  },
+  {
+   "old": "tests/fixtures/small-certificate/099b9fb9401cc14b1931d3f1b740fe37dd7504933581a3d86dbb05f2a3003c8b.json.gz",
+   "new": null
+  },
+  {
+   "old": "tests/fixtures/small-certificate/31ca38ea9605e569b54a3d27fbf814e6c6de36b6ac78a79a1fc6ec6f4f2d774a.json.gz",
+   "new": null
+  },
+  {
+   "old": "tests/fixtures/small-certificate/README.txt",
+   "new": null
+  },
+  {
+   "old": "tests/fixtures/small-certificate/ef3717486ab61869e6e43ee21bbe367a4ec9a19fea443e5a73a61da89369cb0a.json.gz",
+   "new": null
+  }
+ ],
+ "releases": [],
+ "superseded_by": "wand125/square-packing/tree/main/tools/n17_bb_verifier"
+}
